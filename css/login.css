@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+body.bg_filmes {
+    background-image: url(/assets/img/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+header img {
+    width: 150px;
+}
+
+#caixa_login {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    max-width: 29rem;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 740px) { 
+    body.bg_filmes {
+        background-image: none;
+        background-color: ;
+    }
+    header {
+        padding: 20px 50px;
+    }
+    .container-login {
+        background: rgba(0, 0, 0, 0.7);
+        width: 100% !important;
+        justify-content: flex-start;
+        
+    }
+    #caixa_login {
+        max-width: 100%;
+        padding: 0px 30px;
+    }
+ }
