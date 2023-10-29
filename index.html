@@ -17,10 +17,19 @@
             <div id="caixa_login" class="rounded">
                 <h1 class="text-white">Entrar</h1>
                 <br>
-                <form>
-                    <input type="email" class="form-control form-control-lg" placeholder="Email ou número de telefone">
+                <form class="form-login">
+                    <div class="inputField">
+                        <input type="email" class="form-control form-control-lg bg-dark text-white" id="candidateEmmailTel" name="candidateEmmailTel" placeholder=" ">
+                        <label for="candidateEmmailTel">Email ou número de telefone</label>
+                    </div>
+
                     <br>
-                    <input type="password" class="form-control form-control-lg" placeholder="Senha">
+
+                    <div class="inputField">
+                        <input type="password" class="form-control form-control-lg bg-dark text-white" id="candidateSenha" name="candidateSenha" placeholder=" ">
+                        <label for="candidateSenha">Senha</label>
+                    </div>
+
                     <br>
                     <button class="btn btn-lg btn-block btn-danger">Entrar</button>
     
