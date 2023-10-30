@@ -1,0 +1,62 @@
+body {
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+body.bg_filmes {
+    background-image: url(/assets/img/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+header img {
+    width: 150px;
+}
+
+body {
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+body.bg_filmes {
+    background-image: url(/assets/img/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+header img {
+    width: 150px;
+}
+
+/*Botao*/
+.btn-custom-white {
+    background-color: #fff;
+}
+
+.btn-custom-white:hover {
+    opacity: 0.8;
+}
+
+.btn-custom-translucent {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.btn-custom-translucent:hover{
+    color: #fff;
+    opacity: 0.8;
+}
