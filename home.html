@@ -4,11 +4,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Javascript-->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    ></script>
+
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
 <body>
+
+    <div class="modal fade" id="modal-filme">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-hero">
+                    <img src="assets/img/diabo-de-cada-dia.png" alt="diabo de cada dia filme">
+                    <div class="col-12 modal-hero-infos">
+                        <button class="btn btn-lg btn-custom-white">
+                            <i class="fa-solid fa-play"></i> Assistir
+                        </button>
+                        <a href="#" class=" btn btn-light btn-lg rounded-circle">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <a href="#" class="btn-custom-round btn-custom-round btn btn-light btn-lg rounded-circle opacity-50">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </a>
+                        <a href="#" class="btn-custom-round btn btn-light rounded-circle btn-lg opacity-50">
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </a>
+                    </div>
+                    <div class="modal-infos"></div>
+                </div>
+                <div class="modal-infos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7">
+                                <p class="filme_descricao">
+                                    Pregadores Profanos. Autoridades Corruptas. Amantes Assassinos. Numa cidade cheia de pecadores, um jovem busca justiça.
+                                </p>
+                            </div>
+                            <div class="col-5">
+                                <p class="filme_elenco">
+                                    Elenco: <text>Silvo Sampaio, Juliana Righi, Omar Sampaio, Mikael Lopes.</text>
+                                    <br>
+                                    <br>
+                                    Gêneros: <text>Ação, Aventura, Dramático.</text>
+                                    <br>
+                                    <br>
+                                    Cenas e momentos: <text>Violentos.</text>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-7">
+                                <h3 class="text-white">Episódeos</h3>
+                            </div>
+                            <div class="col-5 text-right">
+                                <select class="form-control">
+                                    <option>Temporada 1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div><div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul id="lista_episodeos">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="assets/img/capa-filme.png" alt="diabo de cada dia">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódeo</h6>
+                                            <p class="text-muted">
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                                Pregadores Profanos. Autoridades Corruptas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
         <header class="row">
             <div class="col-2">
@@ -83,8 +284,8 @@
             </div>
             <div class="col-12">
                 <ul class="filme_lista">
-                    <li class="filme">
-                        <img class="img-fluid" src="assets/img/filmes/100.jpg" alt="">
+                    <li class="filme" data-toggle="modal" data-target="#modal-filme">
+                        <img class="img-fluid" src="assets/img/filmes/diabo-nosso-de-cada-dia-capa.jpg" alt="">
                         <div class="filme_info">
                             <div class="col-12">
                                 <a href="#" class=" btn btn-light rounded-circle">
